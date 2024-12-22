@@ -2,3 +2,26 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+nav {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: dimgrey;
+  color: white;
+}
+
+nav ul li {
+  display: inline;
+  padding: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aqua;
+  font-weight: bold;
+}
